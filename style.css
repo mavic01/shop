@@ -187,9 +187,9 @@ nav {
 
 .product {
     height: 100vh;
-    background-color: white;
+    background-color: teal;
     position: relative;
-    clip-path: polygon(28% 0, 100% 10%, 100% 60%, 100% 97%, 0 100%, 0% 60%, 0 0);
+    /* clip-path: polygon(28% 0, 100% 10%, 100% 60%, 100% 97%, 0 100%, 0% 60%, 0 0); */
 }
 .payment {
     width: 470px;
@@ -276,7 +276,7 @@ label {
     font-weight: 300;
 }
 .productImg {
-    width: 50%;
+    width: 40%;
 }
 .productDetails {
     position: absolute;
@@ -291,7 +291,7 @@ label {
 }
 .productDesc {
     font-size: 2p4x;
-    color: gray;
+    color: rgb(230, 217, 217);
 }
 .colors,.sizes {
     display: flex;
@@ -477,7 +477,7 @@ label {
         display: flex;
         align-items: center;
         flex-direction: column;
-        background-color: whitesmoke;
+        /* background-color: whitesmoke; */
     }
     .productDetails {
         width: 100%;
